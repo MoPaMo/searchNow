@@ -1,9 +1,14 @@
-( var myObj = {
-  "name": "John",
-  "age": 30,
-  "cars": {
-    "car1": "Ford",
-    "car2": "BMW",
-    "car3": "Fiat"
+{
+  "categories": {
+    "shop": [
+      { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=hi" },
+      { "name": "Amazon", "url": "https://www.amazon.com/s?k=hi" },
+      {"name":"Walmart", "url":"https://www.walmart.com/search/?query="}
+    ],
+    "web": [
+      { "name": "Google", "url": "https://www.ebay.com/sch/i.html?_nkw=hi" },
+      { "name": "Amazon", "url": "https://www.amazon.com/s?k=hi" },
+      {"name":"Walmart", "url":"https://www.walmart.com/search/?query="}
+    ]
   }
-})
+}
