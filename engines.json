@@ -14,9 +14,15 @@
       { "name": "Qwant", "url": "https://www.qwant.com/?q=" },
       { "name": "QwantJunior", "url": "https://www.qwantjunior.com/?q=" },
       { "name": "Swisscows", "url": "https://swisscows.ch/web?query=" }
-      
-      
     ],
-  "lex":[{ "name": "Wikipedia", "url": "https://en.m.wikipedia.org/wiki/" }]
+    "lex": [{ "name": "Wikipedia", "url": "https://en.m.wikipedia.org/wiki/" }],
+    "misc": [
+      { "name": "Stackoverflow", "url": "https://stackoverflow.com/search?q=" },
+      {
+        "name": "Debian Packages",
+        "url": "https://packages.debian.org/search?keywords=hi"
+      },
+      { "name": "Twitter", "url": "https://twitter.com/search?q=" }
+    ]
   }
 }
