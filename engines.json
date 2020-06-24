@@ -9,20 +9,30 @@
       { "name": "Google", "url": "https://www.google.com/search?q=" },
       { "name": "Ecosia", "url": "https://www.ecosia.org/search?q=" },
       { "name": "Bing", "url": "https://www.bing.com/search?q=" },
+      { "name": "Swisscows", "url": "https://search.aol.com/aol/search;?q=" },
       { "name": "Yahoo", "url": "https://search.yahoo.com/search?p=" },
       { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" },
       { "name": "Qwant", "url": "https://www.qwant.com/?q=" },
       { "name": "QwantJunior", "url": "https://www.qwantjunior.com/?q=" },
       { "name": "Swisscows", "url": "https://swisscows.ch/web?query=" }
     ],
-    "lex": [{ "name": "Wikipedia", "url": "https://en.m.wikipedia.org/wiki/" }],
+    "lex": [
+      { "name": "Wikipedia", "url": "https://en.m.wikipedia.org/wiki/" },
+      {
+        "name": "The Free Dictionary",
+        "url": "https://www.thefreedictionary.com/"
+      },
+      { "name": "Free Thesaurus", "url": "https://www.freethesaurus.com/" },
+      { "name": "Science", "url": "https://search.sciencemag.org/?searchTerm=" }
+    ],
     "misc": [
       { "name": "Stackoverflow", "url": "https://stackoverflow.com/search?q=" },
       {
         "name": "Debian Packages",
-        "url": "https://packages.debian.org/search?keywords=hi"
+        "url": "https://packages.debian.org/search?keywords="
       },
-      { "name": "Twitter", "url": "https://twitter.com/search?q=" }
+      { "name": "Twitter", "url": "https://twitter.com/search?q=" },
+      { "name": "IMDb", "url": "https://www.imdb.com/find?q=" }
     ]
   }
 }
