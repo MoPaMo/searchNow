@@ -1,14 +1,16 @@
 {
   "categories": {
     "shop": [
-      { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=hi" },
-      { "name": "Amazon", "url": "https://www.amazon.com/s?k=hi" },
-      {"name":"Walmart", "url":"https://www.walmart.com/search/?query="}
+      { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=" },
+      { "name": "Amazon", "url": "https://www.amazon.com/s?k=" },
+      { "name": "Walmart", "url": "https://www.walmart.com/search/?query=" }
     ],
     "web": [
-      { "name": "Google", "url": "https://www.ebay.com/sch/i.html?_nkw=hi" },
-      { "name": "Amazon", "url": "https://www.amazon.com/s?k=hi" },
-      {"name":"Walmart", "url":"https://www.walmart.com/search/?query="}
+      { "name": "Google", "url": "https://www.google.com/search?q=" },
+      { "name": "Ecosia", "url": "https://www.ecosia.org/search?q=" },
+      { "name": "Bing", "url": "https://www.bing.com/search?q=" },
+      { "name": "Yahoo", "url": "https://search.yahoo.com/search?p=" },
+      { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" }
     ]
   }
 }
