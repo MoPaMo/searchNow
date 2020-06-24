@@ -10,7 +10,12 @@
       { "name": "Ecosia", "url": "https://www.ecosia.org/search?q=" },
       { "name": "Bing", "url": "https://www.bing.com/search?q=" },
       { "name": "Yahoo", "url": "https://search.yahoo.com/search?p=" },
-      { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" }
+      { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" },
+      { "name": "Qwant", "url": "https://www.qwant.com/?q=" },
+      { "name": "QwantJunior", "url": "https://www.qwantjunior.com/?q=hi" },
+      { "name": "Swisscows", "url": "https://swisscows.ch/web?query=hi" }
+      
+      
     ]
   }
 }
