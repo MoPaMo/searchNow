@@ -9,7 +9,7 @@
       { "name": "Google", "url": "https://www.google.com/search?q=" },
       { "name": "Ecosia", "url": "https://www.ecosia.org/search?q=" },
       { "name": "Bing", "url": "https://www.bing.com/search?q=" },
-      { "name": "Swisscows", "url": "https://search.aol.com/aol/search;?q=" },
+      { "name": "AOL", "url": "https://search.aol.com/aol/search;?q=" },
       { "name": "Yahoo", "url": "https://search.yahoo.com/search?p=" },
       { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" },
       { "name": "Qwant", "url": "https://www.qwant.com/?q=" },
@@ -23,7 +23,9 @@
         "url": "https://www.thefreedictionary.com/"
       },
       { "name": "Free Thesaurus", "url": "https://www.freethesaurus.com/" },
-      { "name": "Science", "url": "https://search.sciencemag.org/?searchTerm=" }
+      { "name": "Science", "url": "https://search.sciencemag.org/?searchTerm=" },
+      { "name": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/" }
+      
     ],
     "misc": [
       { "name": "Stackoverflow", "url": "https://stackoverflow.com/search?q=" },
@@ -32,7 +34,8 @@
         "url": "https://packages.debian.org/search?keywords="
       },
       { "name": "Twitter", "url": "https://twitter.com/search?q=" },
-      { "name": "IMDb", "url": "https://www.imdb.com/find?q=" }
+      { "name": "IMDb", "url": "https://www.imdb.com/find?q=" },
+      { "name": "CC Search", "url": "https://search.creativecommons.org/search?q=" }
     ]
   }
 }
