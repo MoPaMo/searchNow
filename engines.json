@@ -3,7 +3,8 @@
     "shop": [
       { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=" },
       { "name": "Amazon", "url": "https://www.amazon.com/s?k=" },
-      { "name": "Walmart", "url": "https://www.walmart.com/search/?query=" }
+      { "name": "Walmart", "url": "https://www.walmart.com/search/?query=" },
+      {"name":"Airbnb", "url":"https://www.airbnb.de/s/all?query="}
     ],
     "web": [
       { "name": "Google", "url": "https://www.google.com/search?q=" },
