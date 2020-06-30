@@ -21,7 +21,11 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
     <title>searchNow</title>
   </head>
@@ -79,14 +83,27 @@
           </ul>
         </div>
       </nav>
-      
+      <br /><br />
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Search for</span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="something"
+          aria-label="search"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      with
 
-<button>
-  hi
-      </button>
-
-    
-<p id="out"></p></div>
+      <div id="out">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
