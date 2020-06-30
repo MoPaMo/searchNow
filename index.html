@@ -20,12 +20,23 @@
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
-    /><script
+    />
+    <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $.getJSON("demo_ajax_json.js", function(result) {
+            $.each(result, function(i, field) {
+              $("div").append(field + " ");
+            });
+          });
+        });
+      });
+    </script>
     <title>searchNow</title>
   </head>
   <body>
@@ -82,23 +93,16 @@
           </ul>
         </div>
       </nav>
-   
-<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
 
-<button onclick="loadDoc()">Get External Content</button>
-      
-<div id="out">
-  
-      </div>
+      <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
 
+      <button>Get External Content</button>
+
+      <div id="out"></div>
+      <div></div>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -109,6 +113,5 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </body>
 </html>
