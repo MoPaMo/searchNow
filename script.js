@@ -19,10 +19,11 @@ console.log("hi");
 */
 $(document).ready(function(){
   $("button").click(function(){
-    $.getJSON("demo_ajax_json.js", function(result){
-      $.each(result, function(i, field){
-        $("div").append(field + " ");
-      });
+    $.getJSON("/engines.json", function(result){
+      $.each(result.categories, function(i, field){
+        $.each(field, function(i2, field2){
+        $("#out").append("<a href=\""+field2.url+"\">"+field2.name + " ");
+      });});
     });
   });
 });
