@@ -3,10 +3,28 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("hi");
+
+
+
+
+ /* var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var engines= this.responseText;
+      alert(engines)
+    }
+  };
+  xhttp.open("GET", "style.css", true);
+  xhttp.send();
+*/
+
 $(document).ready(function(){
   $("button").click(function(){
-    $.ajax({url: "demo_test.txt", success: function(result){
-      $("#div1").html(result);
-    }});
+    $.getJSON("engines.json", function(result){
+      $.each(result, function(i, field){
+        $("div").append(field + " ");
+      });
+    });
   });
 });
+
