@@ -17,12 +17,11 @@ console.log("hi");
   xhttp.open("GET", "style.css", true);
   xhttp.send();
 */
-
 $(document).ready(function(){
   $("button").click(function(){
-    $.getJSON("engines.json", function(result){
+    $.getJSON("demo_ajax_json.js", function(result){
       $.each(result, function(i, field){
-        $("#div1").append(field + " ");
+        $("div").append(field + " ");
       });
     });
   });

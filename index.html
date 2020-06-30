@@ -26,17 +26,7 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(document).ready(function() {
-        $("button").click(function() {
-          $.getJSON("demo_ajax_json.js", function(result) {
-            $.each(result, function(i, field) {
-              $("div").append(field + " ");
-            });
-          });
-        });
-      });
-    </script>
+    <script src="script.js"></script>
     <title>searchNow</title>
   </head>
   <body>
@@ -93,15 +83,14 @@
           </ul>
         </div>
       </nav>
+      
 
-      <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+<button>
+  hi
+      </button>
 
-      <button>Get External Content</button>
-
-      <div id="out"></div>
-      <div></div>
     </div>
-
+<p id="demo"></p>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
