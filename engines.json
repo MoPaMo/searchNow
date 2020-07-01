@@ -6,7 +6,11 @@
         "url": "https://www.ebay.com/sch/i.html?_nkw=",
         "plus": "Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world's online marketplace"
       },
-      { "name": "Amazon", "url": "https://www.amazon.com/s?k=", "plus": "Earth’s most customer centric company" },
+      {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/s?k=",
+        "plus": "Earth’s most customer centric company"
+      },
       {
         "name": "Walmart",
         "url": "https://www.walmart.com/search/?query=",
@@ -92,12 +96,19 @@
         "plus": "The most popular dictionary and thesaurus for learners of English"
       }
     ],
-    "Entertainment":[{
+    "Entertainment": [
+      {
         "name": "YouTube",
         "url": "https://www.youtube.com/results?search_query=",
         "plus": ""
-      }],
-    
+      },
+      {
+        "name": "IMDb",
+        "url": "https://www.imdb.com/find?q=",
+        "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
+      }
+    ],
+
     "Miscellaneous": [
       {
         "name": "Stackoverflow",
@@ -109,8 +120,12 @@
         "url": "https://packages.debian.org/search?keywords=",
         "plus": "View the packages in the stable distribution"
       },
-      { "name": "Twitter", "url": "https://twitter.com/search?q=", "plus": "Connect with your friends — and other fascinating people" },
-      { "name": "IMDb", "url": "https://www.imdb.com/find?q=", "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content" },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/search?q=",
+        "plus": "Connect with your friends — and other fascinating people"
+      },
+
       {
         "name": "CC Search",
         "url": "https://search.creativecommons.org/search?q=",
@@ -119,10 +134,10 @@
     ]
   },
   "specify": {
-    "Shopping": {"icon":"<i class=\"fas fa-shopping-cart\"></i>"},
-    "Searching the web": {"icon":"<i class=\"fas fa-wifi\"></i>"},
-    "Science and knowledge": {"icon":"<i class=\"fas fa-book\"></i>"},
-    "Miscellaneous": {"icon":"<i class=\"fas fa-icons\"></i>"},
-    "Entertainment":{"icon":"<i class=\"fas fa-cinema\"></i>"}
+    "Shopping": { "icon": "<i class=\"fas fa-shopping-cart\"></i>" },
+    "Searching the web": { "icon": "<i class=\"fas fa-wifi\"></i>" },
+    "Science and knowledge": { "icon": "<i class=\"fas fa-book\"></i>" },
+    "Miscellaneous": { "icon": "<i class=\"fas fa-icons\"></i>" },
+    "Entertainment": { "icon": "<i class=\"fas fa-ticket-alt\"></i>" }
   }
 }
