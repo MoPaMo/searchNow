@@ -22,10 +22,11 @@ $(document).ready(function(){
     $.getJSON("/engines.json", function(result){
       
       $.each(result.categories, function(i, field){
-        $("#out").append("<hr/>");
+        $("#out").append(" <h4 class=\"lead\">"+field.name+"</h4>");
         $.each(field, function(i2, field2){
         $("#out").append("<a href=\""+field2.url+"\">"+field2.name + " ");
-      });});
+      });
+      });
       $("#loading").remove();
   });
 });
