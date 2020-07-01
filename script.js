@@ -11,7 +11,7 @@ $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
       var text =
-        '<h4 class="lead"> ' +
+        '<h4 class="lead"> ' +result.specify[i].icon+
         i +
         '</h4> <ul class="list-group list-group-flush"> ';
 

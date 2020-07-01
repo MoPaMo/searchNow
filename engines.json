@@ -92,6 +92,12 @@
         "plus": "The most popular dictionary and thesaurus for learners of English"
       }
     ],
+    "Entertainment":[{
+        "name": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=",
+        "plus": ""
+      }],
+    
     "Miscellaneous": [
       {
         "name": "Stackoverflow",
@@ -115,7 +121,8 @@
   "specify": {
     "Shopping": {"icon":"<i class=\"fas fa-shopping-cart\"></i>"},
     "Searching the web": {"icon":"<i class=\"fas fa-wifi\"></i>"},
-    "Science and knowledge": {"icon":"<i class=\"fas fa-shopping-cart\"></i>"},
-    "Miscellaneous": {"icon":"<i class=\"fas fa-book\"></i>"}<i class="fas fa-<i class="fas fa-icons"></i>"></i>
+    "Science and knowledge": {"icon":"<i class=\"fas fa-book\"></i>"},
+    "Miscellaneous": {"icon":"<i class=\"fas fa-icons\"></i>"},
+    "Entertainment":{"icon":"<i class=\"fas fa-cinema\"></i>"}
   }
 }
