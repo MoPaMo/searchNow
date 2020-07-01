@@ -1,56 +1,121 @@
 {
   "categories": {
-    "shop": [
-      { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=" },
-      { "name": "Amazon", "url": "https://www.amazon.com/s?k=" },
-      { "name": "Walmart", "url": "https://www.walmart.com/search/?query=" },
-      { "name": "Airbnb", "url": "https://www.airbnb.de/s/all?query=" }
+    "Shopping": [
+      {
+        "name": "eBay",
+        "url": "https://www.ebay.com/sch/i.html?_nkw=",
+        "plus": ""
+      },
+      { "name": "Amazon", "url": "https://www.amazon.com/s?k=", "plus": "" },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/search/?query=",
+        "plus": ""
+      },
+      {
+        "name": "Airbnb",
+        "url": "https://www.airbnb.de/s/all?query=",
+        "plus": ""
+      }
     ],
-    "web": [
-      { "name": "Google", "url": "https://www.google.com/search?q=" },
-      { "name": "Ecosia", "url": "https://www.ecosia.org/search?q=" },
-      { "name": "Bing", "url": "https://www.bing.com/search?q=" },
-      { "name": "AOL", "url": "https://search.aol.com/aol/search;?q=" },
-      { "name": "Yahoo", "url": "https://search.yahoo.com/search?p=" },
-      { "name": "DuckDuckGo", "url": "https://duckduckgo.com/?q=" },
-      { "name": "Qwant", "url": "https://www.qwant.com/?q=" },
-      { "name": "QwantJunior", "url": "https://www.qwantjunior.com/?q=" },
-      { "name": "Swisscows", "url": "https://swisscows.ch/web?query=" }
+    "Searching the web": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com/search?q=",
+        "plus": "Search the world's information"
+      },
+      {
+        "name": "Ecosia",
+        "url": "https://www.ecosia.org/search?q=",
+        "plus": "Plant trees while you search the web"
+      },
+      {
+        "name": "Bing",
+        "url": "https://www.bing.com/search?q=",
+        "plus": "Bing helps you turn information into action"
+      },
+      {
+        "name": "AOL",
+        "url": "https://search.aol.com/aol/search;?q=",
+        "plus": "The search engine that helps you find exactly what you're looking for"
+      },
+      {
+        "name": "Yahoo",
+        "url": "https://search.yahoo.com/search?p=",
+        "plus": "The search engine that helps you find exactly what you're looking for"
+      },
+      {
+        "name": "DuckDuckGo",
+        "url": "https://duckduckgo.com/?q=",
+        "plus": "Tired of being tracked online? We can help."
+      },
+      {
+        "name": "Qwant",
+        "url": "https://www.qwant.com/?q=",
+        "plus": "Qwant is a search engine that respects your privacy and eases discovering and sharing via a social approach."
+      },
+      {
+        "name": "QwantJunior",
+        "url": "https://www.qwantjunior.com/?q=",
+        "plus": "Qwant Junior is the world’s first search engine made for 6-12 years old kids"
+      },
+      {
+        "name": "Swisscows",
+        "url": "https://swisscows.ch/web?query=",
+        "plus": "Swisscows is the data-secure Google alternative"
+      }
     ],
-    "lex": [
-      { "name": "Wikipedia", "url": "https://en.m.wikipedia.org/wiki/" },
+    "Science and knowledge": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.m.wikipedia.org/wiki/",
+        "plus": ""
+      },
       {
         "name": "The Free Dictionary",
-        "url": "https://www.thefreedictionary.com/"
+        "url": "https://www.thefreedictionary.com/",
+        "plus": ""
       },
-      { "name": "Free Thesaurus", "url": "https://www.freethesaurus.com/" },
+      {
+        "name": "Free Thesaurus",
+        "url": "https://www.freethesaurus.com/",
+        "plus": ""
+      },
       {
         "name": "Science",
-        "url": "https://search.sciencemag.org/?searchTerm="
+        "url": "https://search.sciencemag.org/?searchTerm=",
+        "plus": ""
       },
       {
         "name": "Cambridge Dictionary",
-        "url": "https://dictionary.cambridge.org/dictionary/english/"
+        "url": "https://dictionary.cambridge.org/dictionary/english/",
+        "plus": ""
       }
     ],
-    "misc": [
-      { "name": "Stackoverflow", "url": "https://stackoverflow.com/search?q=" },
+    "Miscellaneous": [
+      {
+        "name": "Stackoverflow",
+        "url": "https://stackoverflow.com/search?q=",
+        "plus": ""
+      },
       {
         "name": "Debian Packages",
-        "url": "https://packages.debian.org/search?keywords="
+        "url": "https://packages.debian.org/search?keywords=",
+        "plus": ""
       },
-      { "name": "Twitter", "url": "https://twitter.com/search?q=" },
-      { "name": "IMDb", "url": "https://www.imdb.com/find?q=" },
+      { "name": "Twitter", "url": "https://twitter.com/search?q=", "plus": "" },
+      { "name": "IMDb", "url": "https://www.imdb.com/find?q=", "plus": "" },
       {
         "name": "CC Search",
-        "url": "https://search.creativecommons.org/search?q="
+        "url": "https://search.creativecommons.org/search?q=",
+        "plus": ""
       }
     ]
   },
-  "categorynames": [
-    "Shopping",
-    "Searching the web",
-    "Science and knowledge",
-    "Miscellaneous"
-  ]
+  "specify": {
+    "Shopping": "",
+    "Searching the web": "",
+    "Science and knowledge": "",
+    "Miscellaneous": ""
+  }
 }
