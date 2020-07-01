@@ -27,7 +27,10 @@ $(document).ready(function() {
         '</h4> <ul class="list-group list-group-flush"> ';
 
       $.each(field, function(i2, field2) {
-        text += '<li class="list-group-item d-flex justify-content-between align-items-center">' + field2.name + '<span class="badge badge-primary badge-pill"><span class="fas fa-search"></span></span></li>';
+        text +=
+          '<li class="list-group-item d-flex justify-content-between align-items-center">' +
+          field2.name +
+          '<span class="badge badge-primary badge-pill"><i class="fas fa-search"></i></span></li>';
         //alert(i2);
       });
       $("#out").append(text + "</ul> <br/>");
