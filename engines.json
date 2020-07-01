@@ -4,7 +4,7 @@
       { "name": "eBay", "url": "https://www.ebay.com/sch/i.html?_nkw=" },
       { "name": "Amazon", "url": "https://www.amazon.com/s?k=" },
       { "name": "Walmart", "url": "https://www.walmart.com/search/?query=" },
-      {"name":"Airbnb", "url":"https://www.airbnb.de/s/all?query="}
+      { "name": "Airbnb", "url": "https://www.airbnb.de/s/all?query=" }
     ],
     "web": [
       { "name": "Google", "url": "https://www.google.com/search?q=" },
@@ -24,9 +24,14 @@
         "url": "https://www.thefreedictionary.com/"
       },
       { "name": "Free Thesaurus", "url": "https://www.freethesaurus.com/" },
-      { "name": "Science", "url": "https://search.sciencemag.org/?searchTerm=" },
-      { "name": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/" }
-      
+      {
+        "name": "Science",
+        "url": "https://search.sciencemag.org/?searchTerm="
+      },
+      {
+        "name": "Cambridge Dictionary",
+        "url": "https://dictionary.cambridge.org/dictionary/english/"
+      }
     ],
     "misc": [
       { "name": "Stackoverflow", "url": "https://stackoverflow.com/search?q=" },
@@ -36,7 +41,16 @@
       },
       { "name": "Twitter", "url": "https://twitter.com/search?q=" },
       { "name": "IMDb", "url": "https://www.imdb.com/find?q=" },
-      { "name": "CC Search", "url": "https://search.creativecommons.org/search?q=" }
+      {
+        "name": "CC Search",
+        "url": "https://search.creativecommons.org/search?q="
+      }
     ]
-  }
+  },
+  "categorynames": [
+    "Shopping",
+    "Searching the web",
+    "Science and knowledge",
+    "Miscellaneous"
+  ]
 }
