@@ -15,25 +15,28 @@ console.log("hi");
   xhttp.send();
 */
 
-function op(value){
-  open(value+document.getElementById("search").value, "", "_self")
+function op(value) {
+  open(value + document.getElementById("search").value, "", "_self");
 }
 $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
-      $("#out").append('<h4 class="lead"> ' + i + '</h4> <ul class="list-group list-group-flush"> ');
+      $("#out").append(
+        '<h4 class="lead"> ' +
+          i +
+          '</h4> <ul class="list-group list-group-flush"> '
+      );
       $.each(field, function(i2, field2) {
         $("#out").append(
-          '<li class="list-group-item d-flex justify-content-between align-items-center">'+field2.name+'</li>'
+          '<li class="list-group-item">' + field2.name + "</li>"
         );
-      });
-      $("#out").append(' <br/></ul>');
+      });$("#out").append("</ul>");
     });
     $("#loading").remove();
   });
 });
 
-$('button').tooltip()
+$("button").tooltip();
 //<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 // Tooltip on right <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
 //</button>
