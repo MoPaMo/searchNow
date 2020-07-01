@@ -69,34 +69,34 @@
       {
         "name": "Wikipedia",
         "url": "https://en.m.wikipedia.org/wiki/",
-        "plus": ""
+        "plus": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world"
       },
       {
         "name": "The Free Dictionary",
         "url": "https://www.thefreedictionary.com/",
-        "plus": ""
+        "plus": "The World's most comprehensive free online dictionary, thesaurus, and encyclopedia"
       },
       {
         "name": "Free Thesaurus",
         "url": "https://www.freethesaurus.com/",
-        "plus": ""
+        "plus": "Free Thesaurus is a comprehensive online thesaurus of synonyms, antonyms, and related words"
       },
       {
         "name": "Science",
         "url": "https://search.sciencemag.org/?searchTerm=",
-        "plus": ""
+        "plus": "The strength of Science and its online journal sites rests with the strengths of its community of authors"
       },
       {
         "name": "Cambridge Dictionary",
         "url": "https://dictionary.cambridge.org/dictionary/english/",
-        "plus": ""
+        "plus": "The most popular dictionary and thesaurus for learners of English"
       }
     ],
     "Miscellaneous": [
       {
         "name": "Stackoverflow",
         "url": "https://stackoverflow.com/search?q=",
-        "plus": ""
+        "plus": "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
       },
       {
         "name": "Debian Packages",
