@@ -21,16 +21,17 @@ function op(value) {
 $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
-      $("#out").append(
+      var text =
         '<h4 class="lead"> ' +
-          i +
-          '</h4> <ul class="list-group list-group-flush"> '
-      );
+        i +
+        '</h4> <ul class="list-group list-group-flush"> ';
+
       $.each(field, function(i2, field2) {
-        $("#out").append(
-          '<li class="list-group-item">' + field2.name + "</li>"
-        );
-      });$("#out").append("</ul>");
+        text += '<li class="list-group-item d-flex justify-content-between align-items-center">' + field2.name + '<span class="badge badge-primary badge-pill"><span class="fas fa-search"></span></span></li>';
+        //alert(i2);
+      });
+      $("#out").append(text + "</ul> <br/>");
+      //alert(i)
     });
     $("#loading").remove();
   });
