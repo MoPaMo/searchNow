@@ -14,16 +14,20 @@ console.log("hi");
   xhttp.open("GET", "style.css", true);
   xhttp.send();
 */
+
+function op(value){
+  open(value+document.getElementById("search").value, "", "_self")
+}
 $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
-      $("#out").append(' <h4 class="lead">' + i + '</h4>');
+      $("#out").append('<h4 class="lead"> ' + i + '</h4> <ul class="list-group list-group-flush"> ');
       $.each(field, function(i2, field2) {
         $("#out").append(
-          '<li class="list-group-item">'+field2.name+'</li>'
+          '<li class="list-group-item d-flex justify-content-between align-items-center">'+field2.name+'</li>'
         );
       });
-      $("#out").append(' <br/>');
+      $("#out").append(' <br/></ul>');
     });
     $("#loading").remove();
   });
