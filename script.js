@@ -4,17 +4,6 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-/* var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var engines= this.responseText;
-      alert(engines)
-    }
-  };
-  xhttp.open("GET", "style.css", true);
-  xhttp.send();
-*/
-
 function op(value) {
   open(value + document.getElementById("search").value, "", "_self");
 }
@@ -42,8 +31,9 @@ $(document).ready(function() {
     });
     $("#loading").remove();
   });
+  $("#out").append("hi")
 });
-
+$("#out").append("hi")
 $("button").tooltip();
 //<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 // Tooltip on right <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
