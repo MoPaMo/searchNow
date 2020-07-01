@@ -113,9 +113,9 @@
     ]
   },
   "specify": {
-    "Shopping": "",
-    "Searching the web": "",
-    "Science and knowledge": "",
-    "Miscellaneous": ""
+    "Shopping": {"icon":"<i class=\"fas fa-shopping-cart\"></i>"},
+    "Searching the web": {"icon":"<i class=\"fas fa-wifi\"></i>"},
+    "Science and knowledge": {"icon":"<i class=\"fas fa-shopping-cart\"></i>"},
+    "Miscellaneous": {}
   }
 }

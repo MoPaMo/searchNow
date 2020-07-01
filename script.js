@@ -30,7 +30,7 @@ $(document).ready(function() {
         text +=
           '<li class="list-group-item d-flex justify-content-between align-items-center">' +
           field2.name +
-          '<span onclick="op(\''+field2.url+'\')" class="badge badge-primary badge-pill"><i class="fas fa-search"></i></span></li>';
+          '<span class="text-muted small">'+field2.plus+'</span><span onclick="op(\''+field2.url+'\')" class="badge badge-primary badge-pill"><i class="fas fa-search"></i></span></li>';
         //alert(i2);
       });
       $("#out").append(text + "</ul> <br/>");
