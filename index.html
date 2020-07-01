@@ -38,27 +38,9 @@
   </head>
   <body>
     <div class="container">
-      <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://cdn.glitch.com/32ab9200-fadf-4bf7-bcea-29b07342f6b2%2Fundraw_file_searching_duff.svg?v=1592992498032"
-            width="30"
-            height="30"
-            class="d-inline-block align-top"
-            alt=""
-            loading="lazy"
-          />
-          searchNow
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#slogan">About the shown slogans</a>
-          </li>
-          </ul></div>
-      </nav>-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img
+        <a class="navbar-brand" href="#"
+          ><img
             src="https://cdn.glitch.com/32ab9200-fadf-4bf7-bcea-29b07342f6b2%2Fundraw_file_searching_duff.svg?v=1592992498032"
             width="30"
             height="30"
@@ -66,25 +48,36 @@
             alt=""
             loading="lazy"
           />
-          searchNow</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse"  id="navbarNav" >
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#slogan">About the shown slogans</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+          searchNow</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slogan">About the shown slogans</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <br /><br />
-      <p class="sr-only sr-only-focusable" 
-        >This site may not be comfortable for screen readers</p
-      >
+      <p class="sr-only sr-only-focusable">
+        This site may not be comfortable for screen readers
+      </p>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-group-text" id="basic-addon1">Search for</span>
@@ -98,8 +91,8 @@
           id="search"
           autofocus
         />
-      </div>
-      with
+      </div><br/>
+      with...<br/><br/>
 
       <div id="out"></div>
       <div id="loading" class="spinner-border text-primary" role="status">
@@ -107,50 +100,102 @@
       </div>
 
       <hr />
-      <article id="slogan" class="font-weight-lighter">
-        In general, we used the shortest slogan searchengines show to keep it
-        light. The slogans could have changed over time - no warranty.
+      <article class="font-weight-lighter">
+        <section id="about">
+          <h5>
+            About
+          </h5>
+          Search with 
+          
+        </section>
+        <hr/>
+        <section id="slogan" >
+          <h5>
+            About the shown slogans
+          </h5>
+          In general, we used the shortest slogan searchengines show to keep it
+          light. The slogans could have changed over time - no warranty.
+        </section>
       </article>
-      
-      
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Frameworks</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="https://getbootstrap.com"><i class="fab fa-bootstrap"></i> Bootstrap</a></li>
-          <li><a class="text-muted" href="https://jquery.com">jQuery</a></li>
-          <li><a class="text-muted" href="https://popper.js.org">Popper.js</a></li>
-          <li><a class="text-muted" href="https://fontawesome.com/icons?d=gallery&m=free"><i class="fab fa-font-awesome"></i> FontAwesome free</a></li>
-          <li><a class="text-muted" href="#">Bootstrape</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img
+              class="mb-2"
+              src="https://cdn.glitch.com/32ab9200-fadf-4bf7-bcea-29b07342f6b2%2Fundraw_file_searching_duff.svg?v=1592992498032"
+              alt=""
+              width="25"
+              height="25"
+            />
+            <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Frameworks</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="https://getbootstrap.com"
+                  ><i class="fab fa-bootstrap"></i> Bootstrap</a
+                >
+              </li>
+              <li>
+                <a class="text-muted" href="https://jquery.com">jQuery</a>
+              </li>
+              <li>
+                <a class="text-muted" href="https://popper.js.org">Popper.js</a>
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://fontawesome.com/icons?d=gallery&m=free"
+                  ><i class="fab fa-font-awesome"></i> FontAwesome free</a
+                >
+              </li>
+              <li>
+                <a class="text-muted" href="https://www.bootstrapcdn.com"
+                  >BootstrapCDN</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="engines.json">engines.json</a>
+              </li>
+              <li>
+                <a
+                  class="text-muted"
+                  href="https://glitch.com/edit/?utm_content=project_searchnow&utm_source=remix_this&utm_medium=button&utm_campaign=glitchButton#!/remix/searchnow"
+                  >remix project</a
+                >
+              </li>
+              <li>
+                <a class="text-muted" href="https://glitch.com"
+                  >hosted on Glitch</a
+                >
+              </li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="/LICENSE.md">License (MIT)</a>
+              </li>
+              <li>
+                <a class="text-muted" href="/CODE_OF_CONDUCT.md"
+                  >Code of conduct</a
+                >
+              </li>
+              <li><a class="text-muted" href="/README.md">README-file</a></li>
+              <li><a class="text-muted" href="#about">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
