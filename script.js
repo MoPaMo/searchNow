@@ -17,22 +17,19 @@ console.log("hi");
 $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
-      $("#out").append(' <h4 class="lead">' + i + "</h4>");
+      $("#out").append(' <h4 class="lead">' + i + '</h4>');
       $.each(field, function(i2, field2) {
         $("#out").append(
-          "<button onclick=\"op('" +
-            field2.url +
-            ' \')" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" data-original-title="' +
-            field2.plus +
-            '">' +
-            field2.name +
-            " </button>"
+          '<li class="list-group-item">'+field2.name+'</li>'
         );
       });
+      $("#out").append(' <br/>');
     });
     $("#loading").remove();
   });
 });
+
+$('button').tooltip()
 //<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 // Tooltip on right <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
 //</button>
