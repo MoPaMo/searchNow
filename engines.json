@@ -195,7 +195,7 @@
         },{
           "name": "Instagram",
           "url": "https://www.instagram.com/explore/tags/",
-          "plus": "Flickr is almost certainly the best online photo management and sharing application in the world"
+          "plus": "A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family."
         }
         
         
@@ -254,6 +254,7 @@
     "Miscellaneous": { "icon": "<i class=\"fas fa-icons\"></i>" },
     "Entertainment": { "icon": "<i class=\"fas fa-ticket-alt\"></i>" },
     "Travel": { "icon": "<i class=\"fas fa-map-marked-alt\"></i>" },
-    "Language": { "icon": "<i class=\"fas fa-language\"></i>" }
+    "Language": { "icon": "<i class=\"fas fa-language\"></i>" },
+    "Social Network": {"icon": "<i class=\"fas fa-users\"></i>" }
   }
 }
