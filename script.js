@@ -11,7 +11,9 @@ $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
       var text =
-        '<h4 class="lead" id="'+i+'"> ' +
+        '<h4 class="lead" id="' +
+        i +
+        '"> ' +
         result.specify[i].icon +
         " " +
         i +
@@ -29,14 +31,18 @@ $(document).ready(function() {
         //alert(i2);
       });
       $("#out").append(text + "</ul> <br/>");
-      $("#__insert").append()
+      $("#__insert").append(
+        ' <a href="#' +
+          i +
+          '" class="btn btn-outline-primary" role="button"> ' +
+          result.specify[i].icon +
+          "</a>"
+      );
       //alert(i)
     });
     $("#loading").remove();
   });
-  $("#out").append("hi");
 });
-$("#out").append("hi");
 $("button").tooltip();
 //<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 // Tooltip on right <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
