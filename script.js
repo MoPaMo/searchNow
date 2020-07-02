@@ -11,7 +11,7 @@ $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
       var text =
-        '<h4 class="lead"> ' +
+        '<h4 class="lead" id="'+i+'"> ' +
         result.specify[i].icon +
         " " +
         i +
@@ -29,6 +29,7 @@ $(document).ready(function() {
         //alert(i2);
       });
       $("#out").append(text + "</ul> <br/>");
+      $("#__insert").append()
       //alert(i)
     });
     $("#loading").remove();
