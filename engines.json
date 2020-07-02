@@ -108,7 +108,14 @@
           "name": "IMDb",
           "url": "https://www.imdb.com/find?q=",
           "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
+        },
+        {
+          "name": "Genius",
+          "url": "https://genius.com/search?q=",
+          "plus": "Genius is the world’s biggest collection of song lyrics and musical knowledge."
         }
+        
+        
       ],
       "specify": {}
     },
