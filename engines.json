@@ -1,137 +1,153 @@
 {
   "categories": {
-    "Shopping": [
-      {
-        "name": "eBay",
-        "url": "https://www.ebay.com/sch/i.html?_nkw=",
-        "plus": "Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world's online marketplace"
-      },
-      {
-        "name": "Amazon",
-        "url": "https://www.amazon.com/s?k=",
-        "plus": "Earth’s most customer centric company"
-      },
-      {
-        "name": "Walmart",
-        "url": "https://www.walmart.com/search/?query=",
-        "plus": "Shop Walmart.com for Every Day Low Prices"
-      },
-      {
-        "name": "Airbnb",
-        "url": "https://www.airbnb.de/s/all?query=",
-        "plus": "Unforgettable trips start with Airbnb"
-      }
-    ],
-    "Searching the web": [
-      {
-        "name": "Google",
-        "url": "https://www.google.com/search?q=",
-        "plus": "Search the world's information"
-      },
-      {
-        "name": "Ecosia",
-        "url": "https://www.ecosia.org/search?q=",
-        "plus": "Plant trees while you search the web"
-      },
-      {
-        "name": "Bing",
-        "url": "https://www.bing.com/search?q=",
-        "plus": "Bing helps you turn information into action"
-      },
-      {
-        "name": "AOL",
-        "url": "https://search.aol.com/aol/search;?q=",
-        "plus": "The search engine that helps you find exactly what you're looking for"
-      },
-      {
-        "name": "Yahoo",
-        "url": "https://search.yahoo.com/search?p=",
-        "plus": "The search engine that helps you find exactly what you're looking for"
-      },
-      {
-        "name": "DuckDuckGo",
-        "url": "https://duckduckgo.com/?q=",
-        "plus": "Tired of being tracked online? We can help."
-      },
-      {
-        "name": "Qwant",
-        "url": "https://www.qwant.com/?q=",
-        "plus": "Qwant is a search engine that respects your privacy and eases discovering and sharing via a social approach."
-      },
-      {
-        "name": "QwantJunior",
-        "url": "https://www.qwantjunior.com/?q=",
-        "plus": "Qwant Junior is the world’s first search engine made for 6-12 years old kids"
-      },
-      {
-        "name": "Swisscows",
-        "url": "https://swisscows.ch/web?query=",
-        "plus": "Swisscows is the data-secure Google alternative"
-      }
-    ],
-    "Science and knowledge": [
-      {
-        "name": "Wikipedia",
-        "url": "https://en.m.wikipedia.org/wiki/",
-        "plus": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world"
-      },
-      {
-        "name": "The Free Dictionary",
-        "url": "https://www.thefreedictionary.com/",
-        "plus": "The World's most comprehensive free online dictionary, thesaurus, and encyclopedia"
-      },
-      {
-        "name": "Free Thesaurus",
-        "url": "https://www.freethesaurus.com/",
-        "plus": "Free Thesaurus is a comprehensive online thesaurus of synonyms, antonyms, and related words"
-      },
-      {
-        "name": "Science",
-        "url": "https://search.sciencemag.org/?searchTerm=",
-        "plus": "The strength of Science and its online journal sites rests with the strengths of its community of authors"
-      },
-      {
-        "name": "Cambridge Dictionary",
-        "url": "https://dictionary.cambridge.org/dictionary/english/",
-        "plus": "The most popular dictionary and thesaurus for learners of English"
-      }
-    ],
-    "Entertainment": [
-      {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/results?search_query=",
-        "plus": ""
-      },
-      {
-        "name": "IMDb",
-        "url": "https://www.imdb.com/find?q=",
-        "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
-      }
-    ],
+    "Shopping": {
+      "data": [
+        {
+          "name": "eBay",
+          "url": "https://www.ebay.com/sch/i.html?_nkw=",
+          "plus": "Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world's online marketplace"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com/s?k=",
+          "plus": "Earth’s most customer centric company"
+        },
+        {
+          "name": "Walmart",
+          "url": "https://www.walmart.com/search/?query=",
+          "plus": "Shop Walmart.com for Every Day Low Prices"
+        },
+        {
+          "name": "Airbnb",
+          "url": "https://www.airbnb.de/s/all?query=",
+          "plus": "Unforgettable trips start with Airbnb"
+        }
+      ]
+    },
+    "Searching the web": {
+      "data": [
+        {
+          "name": "Google",
+          "url": "https://www.google.com/search?q=",
+          "plus": "Search the world's information"
+        },
+        {
+          "name": "Ecosia",
+          "url": "https://www.ecosia.org/search?q=",
+          "plus": "Plant trees while you search the web"
+        },
+        {
+          "name": "Bing",
+          "url": "https://www.bing.com/search?q=",
+          "plus": "Bing helps you turn information into action"
+        },
+        {
+          "name": "AOL",
+          "url": "https://search.aol.com/aol/search;?q=",
+          "plus": "The search engine that helps you find exactly what you're looking for"
+        },
+        {
+          "name": "Yahoo",
+          "url": "https://search.yahoo.com/search?p=",
+          "plus": "The search engine that helps you find exactly what you're looking for"
+        },
+        {
+          "name": "DuckDuckGo",
+          "url": "https://duckduckgo.com/?q=",
+          "plus": "Tired of being tracked online? We can help."
+        },
+        {
+          "name": "Qwant",
+          "url": "https://www.qwant.com/?q=",
+          "plus": "Qwant is a search engine that respects your privacy and eases discovering and sharing via a social approach."
+        },
+        {
+          "name": "QwantJunior",
+          "url": "https://www.qwantjunior.com/?q=",
+          "plus": "Qwant Junior is the world’s first search engine made for 6-12 years old kids"
+        },
+        {
+          "name": "Swisscows",
+          "url": "https://swisscows.ch/web?query=",
+          "plus": "Swisscows is the data-secure Google alternative"
+        }
+      ]
+    },
+    "Science and knowledge": {
+      "data": [
+        {
+          "name": "Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/",
+          "plus": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world"
+        },
+        {
+          "name": "The Free Dictionary",
+          "url": "https://www.thefreedictionary.com/",
+          "plus": "The World's most comprehensive free online dictionary, thesaurus, and encyclopedia"
+        },
+        {
+          "name": "Free Thesaurus",
+          "url": "https://www.freethesaurus.com/",
+          "plus": "Free Thesaurus is a comprehensive online thesaurus of synonyms, antonyms, and related words"
+        },
+        {
+          "name": "Science",
+          "url": "https://search.sciencemag.org/?searchTerm=",
+          "plus": "The strength of Science and its online journal sites rests with the strengths of its community of authors"
+        },
+        {
+          "name": "Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english/",
+          "plus": "The most popular dictionary and thesaurus for learners of English"
+        }
+      ]
+    },
+    "Entertainment": {
+      "data": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/results?search_query=",
+          "plus": ""
+        },
+        {
+          "name": "IMDb",
+          "url": "https://www.imdb.com/find?q=",
+          "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
+        }
+      ]
+    },
 
-    "Miscellaneous": [
-      {
-        "name": "Stackoverflow",
-        "url": "https://stackoverflow.com/search?q=",
-        "plus": "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
-      },
-      {
-        "name": "Debian Packages",
-        "url": "https://packages.debian.org/search?keywords=",
-        "plus": "View the packages in the stable distribution"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/search?q=",
-        "plus": "Connect with your friends — and other fascinating people"
-      },
+    "Miscellaneous": {
+      "data": [
+        {
+          "name": "Stackoverflow",
+          "url": "https://stackoverflow.com/search?q=",
+          "plus": "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+        },
+        {
+          "name": "Debian Packages",
+          "url": "https://packages.debian.org/search?keywords=",
+          "plus": "View the packages in the stable distribution"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/search?q=",
+          "plus": "Connect with your friends — and other fascinating people"
+        },
 
-      {
-        "name": "CC Search",
-        "url": "https://search.creativecommons.org/search?q=",
-        "plus": "A new Creative Commons search tool for creators seeking to discover and reuse free resources with greater ease"
-      }
-    ]
+        {
+          "name": "CC Search",
+          "url": "https://search.creativecommons.org/search?q=",
+          "plus": "A new Creative Commons search tool for creators seeking to discover and reuse free resources with greater ease"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?hl=en&q=",
+          "plus": "Find local businesses, view maps and get driving directions in Google Maps."
+        }
+        
+      ]
+    }
   },
   "specify": {
     "Shopping": { "icon": "<i class=\"fas fa-shopping-cart\"></i>" },

@@ -11,11 +11,13 @@ $(document).ready(function() {
   $.getJSON("/engines.json", function(result) {
     $.each(result.categories, function(i, field) {
       var text =
-        '<h4 class="lead"> ' +result.specify[i].icon+" "+
+        '<h4 class="lead"> ' +
+        result.specify[i].icon +
+        " " +
         i +
         '</h4> <ul class="list-group list-group-flush"> ';
 
-      $.each(field, function(i2, field2) {
+      $.each(field.data, function(i2, field2) {
         text +=
           '<li class="list-group-item d-flex justify-content-between align-items-center">' +
           field2.name +
@@ -31,9 +33,9 @@ $(document).ready(function() {
     });
     $("#loading").remove();
   });
-  $("#out").append("hi")
+  $("#out").append("hi");
 });
-$("#out").append("hi")
+$("#out").append("hi");
 $("button").tooltip();
 //<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
 // Tooltip on right <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
