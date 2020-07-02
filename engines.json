@@ -103,19 +103,33 @@
           "name": "YouTube",
           "url": "https://www.youtube.com/results?search_query=",
           "plus": "Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube."
+        },{
+          "name": "Vimeo",
+          "url": "https://vimeo.com/search?q=",
+          "plus": "Join the world’s leading professional video platform and grow your business with easy-to-use, high-quality video creation, hosting, and marketing tools."
         },
         {
           "name": "IMDb",
           "url": "https://www.imdb.com/find?q=",
           "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
         },
+        
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/search/",
+          "plus": "Spotify is a digital music service that gives you access to millions of songs."
+        },
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/search?q=",
+          "plus": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own"
+        },
+
         {
           "name": "Genius",
           "url": "https://genius.com/search?q=",
           "plus": "Genius is the world’s biggest collection of song lyrics and musical knowledge."
         }
-        
-        
       ],
       "specify": {}
     },
