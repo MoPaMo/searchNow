@@ -21,14 +21,12 @@
           "name": "Airbnb",
           "url": "https://www.airbnb.de/s/all?query=",
           "plus": "Unforgettable trips start with Airbnb"
-        },{
+        },
+        {
           "name": "Ecosia Travel",
           "url": "https://hotels.ecosia.org/Search?search=",
           "plus": "Make your new journey a green one"
         }
-        
-        
-        
       ]
     },
     "Searching the web": {
@@ -122,9 +120,34 @@
           "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
         }
       ],
-      "specify":{}
+      "specify": {}
     },
-
+    "Travel": { "data": [
+        {
+          "name": "Bing Maps",
+          "url": "https://www.bing.com/maps/?q=",
+          "plus": "Get Driving, Walking or Transit directions on Bing Maps"
+        },
+        {
+          "name": "Apple Maps",
+          "url": "https://maps.apple.com/?q=",
+          "plus": "Find your way. And find your way around."
+        },
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/search?query=",
+          "plus": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license"
+        },
+        {
+          "name": "HERE maps",
+          "url": "https://wego.here.com/search/",
+          "plus": "HERE WeGo - Maps - Routes - Directions - All ways from A to B in one"
+        },
+        {
+          "name": "Qwant maps",
+          "url": "https://www.qwant.com/maps/?q=hi",
+          "plus": "The map that respects your privacy"
+        }] },
     "Miscellaneous": {
       "data": [
         {
@@ -152,30 +175,9 @@
           "name": "Google Maps",
           "url": "https://www.google.com/maps?hl=en&q=",
           "plus": "Find local businesses, view maps and get driving directions in Google Maps."
-        },{
-          "name": "Bing Maps",
-          "url": "https://www.bing.com/maps/?q=",
-          "plus": "Get Driving, Walking or Transit directions on Bing Maps"
-        },{
-          "name": "Apple Maps",
-          "url": "https://maps.apple.com/?q=",
-          "plus": "Find your way. And find your way around."
-        },{
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/search?query=",
-          "plus": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license"
-        },{
-          "name": "HERE maps",
-          "url": "https://wego.here.com/search/",
-          "plus": "HERE WeGo - Maps - Routes - Directions - All ways from A to B in one"
-        },{
-          "name": "Qwant maps",
-          "url": "https://www.qwant.com/maps/?q=hi",
-          "plus": "The map that respects your privacy"
         }
-        
       ],
-      "specify":{}
+      "specify": {}
     }
   },
   "specify": {
@@ -183,6 +185,7 @@
     "Searching the web": { "icon": "<i class=\"fas fa-wifi\"></i>" },
     "Science and knowledge": { "icon": "<i class=\"fas fa-book\"></i>" },
     "Miscellaneous": { "icon": "<i class=\"fas fa-icons\"></i>" },
-    "Entertainment": { "icon": "<i class=\"fas fa-ticket-alt\"></i>" }
+    "Entertainment": { "icon": "<i class=\"fas fa-ticket-alt\"></i>" },
+    "Travel": { "icon": "<i class=\"fas fa-map-marked-alt\"></i>" }
   }
 }
