@@ -103,7 +103,8 @@
           "name": "YouTube",
           "url": "https://www.youtube.com/results?search_query=",
           "plus": "Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube."
-        },{
+        },
+        {
           "name": "Vimeo",
           "url": "https://vimeo.com/search?q=",
           "plus": "Join the world’s leading professional video platform and grow your business with easy-to-use, high-quality video creation, hosting, and marketing tools."
@@ -113,7 +114,7 @@
           "url": "https://www.imdb.com/find?q=",
           "plus": "IMDb is the world's most popular and authoritative source for movie, TV and celebrity content"
         },
-        
+
         {
           "name": "Spotify",
           "url": "https://open.spotify.com/search/",
@@ -174,6 +175,25 @@
           "name": "Qwant maps",
           "url": "https://www.qwant.com/maps/?q=hi",
           "plus": "The map that respects your privacy"
+        }
+      ]
+    },
+    "News": {
+      "data": [
+        {
+          "name": "The New. York Times",
+          "url": "https://www.nytimes.com/search/?query=",
+          "plus": ""
+        },
+        {
+          "name": "Google",
+          "url": "https://news.google.com/search?hl=en-US&safe=active&gl=US&ceid=US:en&q=",
+          "plus": ""
+        },
+        {
+          "name": "Walmart",
+          "url": "https://www.walmart.com/search/?query=",
+          "plus": "Shop Walmart.com for Every Day Low Prices"
         }
       ]
     },
