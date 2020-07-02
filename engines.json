@@ -178,8 +178,29 @@
         }
       ]
     },
-    
-    
+    "Social Network": {
+      "data": [
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/search?q=",
+          "plus": "Connect with your friends — and other fascinating people"
+        },{
+          "name": "Reddit",
+          "url": "https://www.reddit.com/search?q=",
+          "plus": "Reddit is a network of communities based on people's interests."
+        },{
+          "name": "Flickr",
+          "url": "https://www.flickr.com/search/?q=",
+          "plus": "Flickr is almost certainly the best online photo management and sharing application in the world"
+        },{
+          "name": "Instagram",
+          "url": "https://www.instagram.com/explore/tags/",
+          "plus": "Flickr is almost certainly the best online photo management and sharing application in the world"
+        }
+        
+        
+      ]
+    },
     "Language": {
       "data": [
         {
