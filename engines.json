@@ -144,6 +144,10 @@
           "name": "Google Maps",
           "url": "https://www.google.com/maps?hl=en&q=",
           "plus": "Find local businesses, view maps and get driving directions in Google Maps."
+        },{
+          "name": "Bing Maps",
+          "url": "https://www.bing.com/maps/?q=",
+          "plus": "Get Driving, Walking or Transit directions on Bing Maps"
         }
         
       ]
