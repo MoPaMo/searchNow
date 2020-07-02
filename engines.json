@@ -16,17 +16,8 @@
           "name": "Walmart",
           "url": "https://www.walmart.com/search/?query=",
           "plus": "Shop Walmart.com for Every Day Low Prices"
-        },
-        {
-          "name": "Airbnb",
-          "url": "https://www.airbnb.de/s/all?query=",
-          "plus": "Unforgettable trips start with Airbnb"
-        },
-        {
-          "name": "Ecosia Travel",
-          "url": "https://hotels.ecosia.org/Search?search=",
-          "plus": "Make your new journey a green one"
         }
+        
       ]
     },
     "Searching the web": {
@@ -123,6 +114,21 @@
       "specify": {}
     },
     "Travel": { "data": [
+      {
+          "name": "Airbnb",
+          "url": "https://www.airbnb.de/s/all?query=",
+          "plus": "Unforgettable trips start with Airbnb"
+        },
+        {
+          "name": "Ecosia Travel",
+          "url": "https://hotels.ecosia.org/Search?search=",
+          "plus": "Make your new journey a green one"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps?hl=en&q=",
+          "plus": "Find local businesses, view maps and get driving directions in Google Maps."
+        },
         {
           "name": "Bing Maps",
           "url": "https://www.bing.com/maps/?q=",
@@ -170,11 +176,6 @@
           "name": "CC Search",
           "url": "https://search.creativecommons.org/search?q=",
           "plus": "A new Creative Commons search tool for creators seeking to discover and reuse free resources with greater ease"
-        },
-        {
-          "name": "Google Maps",
-          "url": "https://www.google.com/maps?hl=en&q=",
-          "plus": "Find local businesses, view maps and get driving directions in Google Maps."
         }
       ],
       "specify": {}
