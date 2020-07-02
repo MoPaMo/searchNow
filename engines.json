@@ -178,25 +178,8 @@
         }
       ]
     },
-    "News": {
-      "data": [
-        {
-          "name": "The New. York Times",
-          "url": "https://www.nytimes.com/search/?query=",
-          "plus": ""
-        },
-        {
-          "name": "Google",
-          "url": "https://news.google.com/search?hl=en-US&safe=active&gl=US&ceid=US:en&q=",
-          "plus": ""
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/search/?query=",
-          "plus": "Shop Walmart.com for Every Day Low Prices"
-        }
-      ]
-    },
+    
+    
     "Language": {
       "data": [
         {
