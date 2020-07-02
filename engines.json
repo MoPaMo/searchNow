@@ -21,7 +21,14 @@
           "name": "Airbnb",
           "url": "https://www.airbnb.de/s/all?query=",
           "plus": "Unforgettable trips start with Airbnb"
+        },{
+          "name": "Ecosia Travel",
+          "url": "https://hotels.ecosia.org/Search?search=",
+          "plus": "Make your new journey a green one"
         }
+        
+        
+        
       ]
     },
     "Searching the web": {
@@ -161,6 +168,10 @@
           "name": "HERE maps",
           "url": "https://wego.here.com/search/",
           "plus": "HERE WeGo - Maps - Routes - Directions - All ways from A to B in one"
+        },{
+          "name": "Qwant maps",
+          "url": "https://www.qwant.com/maps/?q=hi",
+          "plus": "The map that respects your privacy"
         }
         
       ],
