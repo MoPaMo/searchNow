@@ -1,37 +1,13 @@
 searchNow
 =================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
+Search the web with more than 20 search engines. Easily [![remix on glitch](https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726)](https://glitch.com/edit/?utm_content=project_searchnow&utm_source=remix_this&utm_medium=button&utm_campaign=glitchButton#!/remix/searchnow) and add your own search engines into the project. Hosted on glitch
 
 Made by [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ
+<!-- Remix Button -->
+<a href="">
+  <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix this" height="33">
+</a>
